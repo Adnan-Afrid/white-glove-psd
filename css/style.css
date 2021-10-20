@@ -1,0 +1,687 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'),
+        url('Montserrat-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Black.woff2') format('woff2'),
+        url('Montserrat-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Bold.woff2') format('woff2'),
+        url('Montserrat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BoldItalic.woff2') format('woff2'),
+        url('Montserrat-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-BlackItalic.woff2') format('woff2'),
+        url('Montserrat-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLightItalic.woff2') format('woff2'),
+        url('Montserrat-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Italic.woff2') format('woff2'),
+        url('Montserrat-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.woff2') format('woff2'),
+        url('Montserrat-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraBoldItalic.woff2') format('woff2'),
+        url('Montserrat-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Light.woff2') format('woff2'),
+        url('Montserrat-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-LightItalic.woff2') format('woff2'),
+        url('Montserrat-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-MediumItalic.woff2') format('woff2'),
+        url('Montserrat-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ExtraLight.woff2') format('woff2'),
+        url('Montserrat-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'),
+        url('Montserrat-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-ThinItalic.woff2') format('woff2'),
+        url('Montserrat-ThinItalic.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBoldItalic.woff2') format('woff2'),
+        url('Montserrat-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Thin.woff2') format('woff2'),
+        url('Montserrat-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+.body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Proxima Nova';
+}
+.container{
+    max-width: 1360px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.header_wrap{
+    box-shadow: 0px 0px 10px -3px;
+}
+.logo_wrap img{
+    width: 222px;
+    height: 61px;
+}
+.navbar-nav ul li{
+    font-size: 18px;
+}
+.navbar-nav li span{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: uppercase;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #033B2F !important;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    margin-right: 15px;
+}
+/* Banner Section Start CSS */
+.banner_contents h3{
+    padding-top: 80px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #B5D659;
+}
+.banner_contents h1{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 66px;
+    color: #033B2F;
+}
+.banner_contents p{
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #033B2F;
+    opacity: 0.8;
+}
+.banner_contents h2{
+    padding-top: 10px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+    color: #99CC0C;
+    margin-bottom: 60px;
+}
+.hero_image_wrap{
+    margin-top: 40px;
+}
+/* .border_wrap{
+    position: relative;
+    width: 100%;
+    height: 501px;
+    border: 5px solid lightgreen;
+    margin-top: 50px;
+} */
+.images_wrap{
+    display: flex;
+    position: absolute;
+}
+.image_one{
+    width: 100%;
+}
+.image_two{
+    width: 100%;
+}
+.book_consultation a{
+    position: relative;
+    text-decoration: none;
+    background-color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #033B2F;
+    padding-left: 12px;
+}
+.book_consultation a::before{
+    content: "";
+   position: absolute;
+   border: 5px solid #99CC0C;
+   padding: 10px;
+   height: 50px;
+   width: 50px;
+   z-index: -1;
+   top: -11px;
+   left: -6px;
+}
+/* .book_consultation:hover{
+    border: 5px solid #99CC0C;
+   padding: 10px;
+   height: 50px;
+   width: 50px;
+   z-index: -1;
+    width: 80%;
+} */
+.book_consultation a:hover{
+    color: #033B2F;
+}
+
+/* Banner Section End CSS */
+
+
+/* Consult Section Start CSS*/
+.consult_wrapper{
+    background-image: url('/images/imgpsh_fullsize_anim\ \(3\).png');
+    background-size: cover;
+    margin-top: 80px;
+}
+
+.consult_wrap{
+    text-align: center;
+    background: #F3F5EE;
+    box-shadow: 0px 6px 10px rgba(3, 59, 47, 0.13);
+    border-radius: 8px;
+    height: 440px;
+}
+.consult_wrap img{
+    width: 111px;
+    height: 111px;
+    margin-top: 40px;
+}
+.consult_wrap h2{
+    font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 34px;
+text-align: center;
+color: #033B2F;
+margin-top: 27px;
+}
+.consult_wrap p{
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+padding: 42px;
+}
+
+.healthcare_wrap{
+    text-align: center;
+    margin-top: 90px;
+}
+.healthcare_wrap h2{
+    font-style: normal;
+font-weight: 800;
+font-size: 50px;
+line-height: 60px;
+text-align: center;
+color: #BBD86E;
+margin-top: 22px;
+}
+.healthcare_wrap p{
+    font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 39px;
+text-align: center;
+color: #FFFFFF;
+}
+/* Consult Section Start CSS*/
+
+/* Davide video Section Start CSS */
+.questions_wrapper{
+    background: #F3F5EE;
+}
+.questions_heading{
+    text-align: center;
+    margin-top: 90px;
+}
+.questions_heading h3{
+    font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 32px;
+text-align: center;
+text-transform: uppercase;
+color: #033B2F;
+margin-top: 22px;
+}
+.questions_heading h2{
+    font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 73px;
+text-align: center;
+color: #BBD86E;
+}
+.questions_heading p{
+    font-family: Roboto;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #033B2F;
+}
+
+.questions_wrap{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 10px rgba(3, 59, 47, 0.13);
+    border-radius: 8px;
+    height:550px;
+    text-align: center;
+}
+.questions_wrap img{
+    margin-top: 19px;
+    height: 150px;
+}
+.questions_wrap h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: #033B2F;
+}
+.questions_wrap p{
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+text-align: center;
+color: #033B2F;
+padding: 40px;
+}
+
+
+/* Video Section Start CSS */
+.videos_wrapper{
+position: relative;
+}
+.video_head_wrap{
+    text-align: center;
+    margin-top: 90px;
+}
+
+.video_head_wrap h3{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #033B2F;
+    margin-top: 20px;
+}
+.video_head_wrap h2{
+    font-style: normal;
+font-weight: 800;
+font-size: 60px;
+line-height: 73px;
+text-align: center;
+color: #BBD86E;
+}
+
+.left_video_contents{
+background: #F3F5EE;
+box-shadow: 0px 6px 10px rgba(3, 59, 47, 0.13);
+border-radius: 8px;
+position: absolute;
+width: 370px;
+height: 469px;
+left: 119px;
+top: 365px;
+}
+.center_video_contents{
+background: #F3F5EE;
+box-shadow: 0px 6px 10px rgba(3, 59, 47, 0.13);
+border-radius: 8px;
+}
+.right_video_contents{
+    background: #F3F5EE;
+    box-shadow: 0px 6px 10px rgb(3 59 47 / 13%);
+    border-radius: 8px;
+    position: absolute;
+    width: 370px;
+    height: 469px;
+    left: 862px;
+    top: 365px;
+    }
+.left_video_contents p{
+    /* position: absolute; */
+    width: 263px;
+    height: 99px;
+    left: 173px;
+    top: 4007px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #033B2F;
+    margin: 36px;
+}
+.center_video_contents p{
+    width: 263px;
+    height: 99px;
+    left: 173px;
+    top: 4007px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #033B2F;
+    margin: 36px;
+}
+.right_video_contents p{
+    width: 263px;
+    height: 99px;
+    left: 173px;
+    top: 4007px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #033B2F;
+    margin: 36px;
+}
+/* Video Section End CSS */
+
+/* Note Section Start CSS */
+.note_wrapper{
+    position: relative;
+}
+.note_contents{
+    position: absolute;
+    width: 938.17px;
+    height: 387.79px;
+    left: 223.41px;
+    top: 339px;
+    background: #F3F5EE;
+    border-radius: 8px;
+}
+.note_contents p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #033B2F;
+    padding: 24px;
+}
+.note_contents h2{
+    font-style: normal;
+font-weight: 800;
+font-size: 32px;
+line-height: 39px;
+padding-left: 18px;
+color: #033B2F;
+}
+.note_contents h3{
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 24px;
+padding-left: 18px;
+color: #033B2F;
+opacity: 0.8;
+}
+.lef_arrow_wrap{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 127px;
+    top: 500px;
+    transform: rotate(0deg);
+}
+.right_arrow_wrap{
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left: 1192px;
+    top: 497px;
+}
+/* Note Section End CSS */
+
+/* Book Consultation Section Start CSS */
+.book_consultation_wrapper{
+    background-image: url('/images/Rectan.png');
+    background-size: cover;
+
+}
+.consult_image_wrap{
+    background-image: url('/images/shutterstock_1130415899\ 1.png');
+    background-size: cover;
+}
+
+
+
+/* ************************************************** Services Page Start CSS ****************************** */
+.hero_wrapper{
+    background-image: url('/images/Bodagan.png');
+    background-size: cover;
+    width: 1349px;
+    height: 460px;
+    position: relative;
+}
+.hero_overlay{
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0,0,0,0.4);
+}
+.hero_contents img{
+    position: absolute;
+    width: 179px;
+    height: 20px;
+    left: 631px;
+    top: 208px;
+}
+.hero_contents h1{
+    position: absolute;
+    width: 351px;
+    height: 60px;
+    left: 545px;
+    top: 255px;
+    /* font-family: 'Montserrat'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 57px;
+    line-height: 60px;
+    text-align: center;
+    color: #BBD86E;
+}
+.hero_contents h3{
+    position: absolute;
+    width: 431px;
+    height: 58px;
+    left: 505px;
+    top: 325px;
+    /* font-family: 'Montserrat'; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+/* Tabs Section Start CSS */
+.tabs_wrapper .nav-item:hover {
+    background: #033B2F;
+    border-radius: 10px;
+}
+.tabs_wrapper .nav-item{
+    background: #F3F5EE;
+    border-radius: 10px;
+    width: 100%;
+    height: 100px;
+    margin: 5px;
+}
+.tabs_wrapper .nav-item a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #033B2F;
+    opacity: 0.6;
+}
+.tabs_wrapper .nav-item a:hover{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    color: #B5D659;
+}
+.image_para_wrap{
+    background: #F3F5EE;
+    box-shadow: 0px 6px 10px rgba(3, 59, 47, 0.13);
+    border-radius: 8px;
+}
+.image_para_wrap h2{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    color: #033B2F;
+}
+.image_para_wrap p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    color: #033B2F;
+}
+.image_para_wrap a{
+    text-decoration: none;
+    color: #B5D659;
+}
+/* Tabs Section End CSS */
+
